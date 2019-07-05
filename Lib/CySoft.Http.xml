@@ -1,0 +1,153 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CySoft.Http</name>
+    </assembly>
+    <members>
+        <member name="T:CySoft.Http.HttpUtility">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:CySoft.Http.IHttp">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:CySoft.Http.IHttp.Post(System.String,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="url"></param>
+            <param name="content"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CySoft.Http.IHttp.Post(System.String,System.String,System.String,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="url"></param>
+            <param name="content"></param>
+            <param name="charset"></param>
+            <param name="contentType"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CySoft.Http.IHttp.Post(System.String,System.String,System.String,System.String,System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="url"></param>
+            <param name="content"></param>
+            <param name="charset"></param>
+            <param name="contentType"></param>
+            <param name="timeOut"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CySoft.Http.IHttp.Post(System.String,System.String,System.String,System.String,System.String,System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="url"></param>
+            <param name="content"></param>
+            <param name="charset"></param>
+            <param name="contentType"></param>
+            <param name="userAgent"></param>
+            <param name="timeOut"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CySoft.Http.IHttp.Post(System.String,System.String,System.String,System.String,System.String,System.String,System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="url"></param>
+            <param name="content"></param>
+            <param name="charset"></param>
+            <param name="contentType"></param>
+            <param name="userAgent"></param>
+            <param name="structHeader"></param>
+            <param name="timeOut"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CySoft.Http.IHttp.PostWithCert(System.String,System.String,System.String,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="url"></param>
+            <param name="content"></param>
+            <param name="certPath"></param>
+            <param name="certPwd"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CySoft.Http.IHttp.PostWithCert(System.String,System.String,System.String,System.String,System.String,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="url"></param>
+            <param name="content"></param>
+            <param name="certPath"></param>
+            <param name="certPwd"></param>
+            <param name="charset"></param>
+            <param name="contentType"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CySoft.Http.IHttp.PostWithCert(System.String,System.String,System.String,System.String,System.String,System.String,System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="url"></param>
+            <param name="content"></param>
+            <param name="certPath"></param>
+            <param name="certPwd"></param>
+            <param name="charset"></param>
+            <param name="contentType"></param>
+            <param name="timeOut"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CySoft.Http.IHttp.PostWithCert(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="url"></param>
+            <param name="content"></param>
+            <param name="certPath"></param>
+            <param name="certPwd"></param>
+            <param name="charset"></param>
+            <param name="contentType"></param>
+            <param name="userAgent"></param>
+            <param name="timeOut"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CySoft.Http.IHttp.PostWithCert(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="url"></param>
+            <param name="content"></param>
+            <param name="certPath"></param>
+            <param name="certPwd"></param>
+            <param name="charset"></param>
+            <param name="contentType"></param>
+            <param name="userAgent"></param>
+            <param name="structHeader"></param>
+            <param name="timeOut"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CySoft.Http.IHttp.Get(System.String,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="url"></param>
+            <param name="queryString"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CySoft.Http.IHttp.Get(System.String,System.String,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="url"></param>
+            <param name="queryString"></param>
+            <param name="charset"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

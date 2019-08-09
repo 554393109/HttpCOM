@@ -1,6 +1,7 @@
 ﻿using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
+using System.Security;
 
 // 有关程序集的一般信息由以下
 // 控制。更改这些特性值可修改
@@ -13,6 +14,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyCopyright("Copyright © 尹自强 2019")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
+[assembly: AllowPartiallyTrustedCallers()]
 
 // 将 ComVisible 设置为 false 会使此程序集中的类型
 //对 COM 组件不可见。如果需要从 COM 访问此程序集中的类型
@@ -35,5 +37,7 @@ using System.Runtime.InteropServices;
 //[assembly: AssemblyVersion("1.0.0.0")]
 //[assembly: AssemblyFileVersion("1.0.0.0")]
 
-[assembly: AssemblyVersion("1.0.0.*")]
-[assembly: AssemblyInformationalVersion("1.0.0.1907051000")]
+[assembly: AssemblyVersion("1.0.0.0")]
+
+[assembly: AssemblyKeyFile(@"D:\GitHub.Repository\HttpCOM\Lib\CySoft.Http.snk")]
+

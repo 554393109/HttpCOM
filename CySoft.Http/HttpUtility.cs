@@ -1,19 +1,23 @@
-﻿using System;
-using System.Runtime.InteropServices;
-
-namespace CySoft.Http
+﻿namespace CySoft.Http
 {
+    using System;
+    using System.Runtime.InteropServices;
+
     /// <summary>
     /// 
     /// </summary>
     [ComVisible(true)
-        , Guid("94361ED2-03BC-430F-9342-87C19F92D697")
+        , Guid("63A6D95D-9E43-471E-A9BD-EA9A0B8F395D")
         , ProgId("CySoft.Http.HttpUtility")
-        , ComSourceInterfaces(typeof(IHttp))
-        , ClassInterface(ClassInterfaceType.None)]
+        //, ComSourceInterfaces(typeof(IHttp))
+        /*, ClassInterface(ClassInterfaceType.AutoDual)*/]
     public partial class HttpUtility : IHttp
     {
         #region Post
+        public int Post()
+        {
+            return 10000;
+        }
 
         public string Post(string url, string content)
         {

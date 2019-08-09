@@ -9,14 +9,16 @@ namespace App
 {
     class Program
     {
-        [DllImport("D:\\GitHub.Repository\\HttpCOM\\Lib\\CySoft.Http.dll",
-            CharSet = CharSet.Auto,
-            CallingConvention = CallingConvention.StdCall)]
-        public static extern string Post(string url, string content);
+        private const string pathDll = @"D:\GitHub.Repository\HttpCOM\Lib\CySoft.Http.dll";
+
+        [DllImport(pathDll, CharSet = CharSet.Ansi/*, CallingConvention = CallingConvention.StdCall*/)]
+        public static extern int Post();
+        //public static extern string Post(string url, string content);
 
         static void Main(string[] args)
         {
-            var result = Post("aaa", "bbb");
+            int result = Post();
+            //var result = Post("aaa", "bbb");
             Console.WriteLine(result);
             Console.ReadLine();
         }
